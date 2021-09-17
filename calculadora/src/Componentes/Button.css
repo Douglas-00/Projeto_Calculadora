@@ -11,3 +11,26 @@
     border-bottom: var(--border-button);
 
 }
+
+.button:active{
+    background-color: rgb(197, 184, 184);
+}
+
+.button.double{
+    grid-column: span 2;
+}
+
+.button.triple{
+    grid-column: span 3;
+}
+
+.button.operation{
+    background-color: rgb(255, 193, 23);
+    color: #fff;
+}
+
+.button.operation:active{
+    background-color:rgb(250, 151, 37) ;
+    color: #fff;
+}
+
